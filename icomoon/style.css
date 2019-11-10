@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?swelwj');
+  src:  url('fonts/icomoon.eot?swelwj#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?swelwj') format('truetype'),
+    url('fonts/icomoon.woff?swelwj') format('woff'),
+    url('fonts/icomoon.svg?swelwj#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook:before {
+  content: "\e900";
+  color: #4172b8;
+}
+.icon-github:before {
+  content: "\e901";
+}
+.icon-gitlab:before {
+  content: "\e902";
+  color: #e24329;
+}
+.icon-instagram:before {
+  content: "\e903";
+  color: #e4405f;
+}
+.icon-messenger:before {
+  content: "\e904";
+  color: #00b2ff;
+}
+.icon-twitch:before {
+  content: "\e905";
+  color: #6441a4;
+}
+.icon-twitter:before {
+  content: "\e906";
+  color: #1da1f2;
+}
+.icon-youtube:before {
+  content: "\e907";
+  color: #f00;
+}
